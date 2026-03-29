@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="color-scheme" content="dark">
+    <title>Chifa D'Salón Chino | Auténtica Comida Chifa en Ayacucho</title>
+    <meta name="description"
+        content="Chifa D'Salón Chino – La mejor comida chifa en Ayacucho. Más de 70 platos: chaufas, tallarines, alitas BBQ, combinados y más. Av. Independencia 435, Huamanga.">
+    <meta name="keywords"
+        content="chifa ayacucho, comida china ayacucho, chaufa, tallarin, alitas bbq, salon chino, huamanga">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Loader -->
+    <div id="loader" class="loader" role="status" aria-live="polite">
+        <div class="loader-content">
+            <img src="images/Logo.webp" alt="" class="loader-logo" aria-hidden="true" width="120" height="120">
+            <div class="loader-bar" aria-hidden="true">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-text">Preparando tu experiencia…</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="images/Logo.webp" alt="Logo Chifa D'Salón Chino" class="nav-logo-img" width="44" height="44">
+                <span class="logo-text">D'Salón Chino</span>
+            </a>
+            <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menú de navegación">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Nosotros</a></li>
+                <li><a href="#specialties" class="nav-link">Especialidades</a></li>
+                <li><a href="#menu" class="nav-link">Menú</a></li>
+                <li><a href="#gallery" class="nav-link">Galería</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+                <li><a href="https://wa.me/51935894115" target="_blank" rel="noopener noreferrer" class="nav-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="floating-characters" aria-hidden="true">
+                <span class="float-char" style="--delay: 0s; --x: 10%; --y: 20%;">福</span>
+                <span class="float-char" style="--delay: 2s; --x: 85%; --y: 15%;">喜</span>
+                <span class="float-char" style="--delay: 4s; --x: 70%; --y: 70%;">味</span>
+                <span class="float-char" style="--delay: 1s; --x: 20%; --y: 75%;">香</span>
+                <span class="float-char" style="--delay: 3s; --x: 50%; --y: 10%;">美</span>
+                <span class="float-char" style="--delay: 5s; --x: 90%; --y: 50%;">鮮</span>
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-line"></span>
+                        <span>Auténtica Comida Chifa</span>
+                        <span class="badge-line"></span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">D'Salón</span>
+                        <span class="title-line title-accent">Chino</span>
+                    </h1>
+                    <p class="hero-subtitle">Más de 70 platos con el sabor de la auténtica fusión chino-peruana, en el
+                        corazón de Ayacucho</p>
+                    <div class="hero-actions">
+                        <a href="#menu" class="btn btn-primary">
+                            <span>Ver Menú</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/51935894115" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-outline">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                            </svg>
+                            <span>Escríbenos</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="70">0</span>
+                            <span class="stat-label">Platos en carta</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-label">Categorías</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="6">0</span>
+                            <span class="stat-label">Días a la semana</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <img src="images/portada.webp" alt="Chifa D'Salón Chino – Auténtica Comida Chifa en Ayacucho"
+                        class="hero-image" loading="eager" width="550" height="550" fetchpriority="high">
+                </div>
+            </div>
+            <div class="hero-info-banner">
+                <div class="info-pill">
+                    <span aria-hidden="true">📍</span> Ayacucho – Huamanga
+                </div>
+                <div class="info-pill">
+                    <span aria-hidden="true">🕐</span> Lun–Dom: 5:00 PM – 11:30 PM
+                </div>
+                <div class="info-pill highlight">
+                    <span aria-hidden="true">📋</span>Por ahora solo consumo en local y para llevar<br />
+                    – Sin delivery
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator" aria-label="Descubre más">
+                <div class="scroll-mouse">
+                    <div class="scroll-dot"></div>
+                </div>
+                <span>Descubre más</span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-col">
+                        <div class="about-image-wrapper">
+                            <img src="images/Menus.webp" alt="Menú del restaurante D'Salón Chino" class="about-image"
+                                loading="lazy" width="600" height="400">
+                            <div class="about-image-frame"></div>
+                            <div class="experience-badge">
+                                <span class="exp-number">70+</span>
+                                <span class="exp-text">Platos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text-col">
+                        <span class="section-tag">Nuestra Historia</span>
+                        <h2 class="section-title">El sabor chifa que<br><span class="text-gradient">Ayacucho ama</span>
+                        </h2>
+                        <p class="about-desc">En Chifa D'Salón Chino preparamos con dedicación cada plato, fusionando
+                            los sabores de la cocina china con los ingredientes y la sazón peruana que nos caracteriza.
+                        </p>
+                        <p class="about-desc">Ubicados en el corazón de Huamanga, te ofrecemos una carta con más de 70
+                            platos para todos los gustos: desde nuestros clásicos chaufas y tallarines, hasta nuestras
+                            irresistibles alitas BBQ y el tradicional Chijaukay.</p>
+                        <div class="about-features">
+                            <div class="feature">
+                                <div class="feature-icon" aria-hidden="true">🔥</div>
+                                <div>
+                                    <h4>Wok a Fuego Alto</h4>
+                                    <p>Cada plato con el sabor ahumado del wok tradicional</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon" aria-hidden="true">📋</div>
+                                <div>
+                                    <h4>Solo en Local</h4>
+                                    <p>Disfruta la experiencia completa en nuestro salón. Consultas por WhatsApp</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon" aria-hidden="true">📍</div>
+                                <div>
+                                    <h4>Fácil de Encontrar</h4>
+                                    <p>2do piso de la Pollería D'Rockys, Av. Independencia 435</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialties Section -->
+        <section id="specialties" class="specialties section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Lo Más Pedido</span>
+                    <h2 class="section-title">Nuestras <span class="text-gradient">Especialidades</span></h2>
+                    <p class="section-desc">Los platos favoritos de la casa que no puedes dejar de probar</p>
+                </div>
+                <div class="specialties-grid">
+                    <div class="specialty-card">
+                        <div class="specialty-image-wrapper">
+                            <img src="images/TallarinDePollo.webp" alt="Tallarín de Pollo" class="specialty-image"
+                                loading="lazy" width="400" height="300">
+                            <div class="specialty-overlay">
+                                <span class="specialty-price">S/. 19</span>
+                            </div>
+                            <div class="specialty-badge">⭐ #1</div>
+                        </div>
+                        <div class="specialty-info">
+                            <h3>Tallarín de Pollo</h3>
+                            <p>Fideos salteados al wok con pollo, verduras y el toque especial de la casa</p>
+                            <div class="specialty-tags">
+                                <span class="tag">Favorito</span>
+                                <span class="tag">Wok</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specialty-card">
+                        <div class="specialty-image-wrapper">
+                            <img src="images/CombinadoDePollo.webp" alt="Combinado de Pollo" class="specialty-image"
+                                loading="lazy" width="400" height="300">
+                            <div class="specialty-overlay">
+                                <span class="specialty-price">S/. 15</span>
+                            </div>
+                            <div class="specialty-badge">🥡 Clásico</div>
+                        </div>
+                        <div class="specialty-info">
+                            <h3>Combinado de Pollo</h3>
+                            <p>La combinación perfecta de arroz chaufa con tallarín y pollo al wok</p>
+                            <div class="specialty-tags">
+                                <span class="tag">Popular</span>
+                                <span class="tag">Combinado</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specialty-card">
+                        <div class="specialty-image-wrapper">
+                            <img src="images/SopaDeKion.webp" alt="Sopa de Kion" class="specialty-image" loading="lazy"
+                                width="400" height="300">
+                            <div class="specialty-overlay">
+                                <span class="specialty-price">S/. 14</span>
+                            </div>
+                            <div class="specialty-badge">🍲 Reconfortante</div>
+                        </div>
+                        <div class="specialty-info">
+                            <h3>Sopa de Kion</h3>
+                            <p>Caldo aromático con jengibre fresco, fideos y trozos de pollo</p>
+                            <div class="specialty-tags">
+                                <span class="tag">Sopas</span>
+                                <span class="tag">Kion</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specialty-card">
+                        <div class="specialty-image-wrapper">
+                            <img src="images/Chijaukay.webp" alt="Chijaukay" class="specialty-image" loading="lazy"
+                                width="400" height="300">
+                            <div class="specialty-overlay">
+                                <span class="specialty-price">S/. 24</span>
+                            </div>
+                            <div class="specialty-badge">🔥 Especial</div>
+                        </div>
+                        <div class="specialty-info">
+                            <h3>Chijaukay</h3>
+                            <p>Pollo en trozos con salsa de ostión, jengibre y verduras al wok</p>
+                            <div class="specialty-tags">
+                                <span class="tag">Pollo</span>
+                                <span class="tag">Salsa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specialty-card">
+                        <div class="specialty-image-wrapper">
+                            <img src="images/AlitasBBQ.webp" alt="Alitas BBQ" class="specialty-image" loading="lazy"
+                                width="400" height="300">
+                            <div class="specialty-overlay">
+                                <span class="specialty-price">S/. 26</span>
+                            </div>
+                            <div class="specialty-badge">🍗 Hit</div>
+                        </div>
+                        <div class="specialty-info">
+                            <h3>Alitas BBQ</h3>
+                            <p>Alitas crujientes bañadas en salsa BBQ acompañadas de chaufa o papa</p>
+                            <div class="specialty-tags">
+                                <span class="tag">Alitas</span>
+                                <span class="tag">BBQ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parallax Divider: Wok Fire -->
+        <section class="parallax-divider" aria-hidden="true">
+            <div class="parallax-divider-bg" style="background-image: url('images/TallarinDePollo.webp');"></div>
+            <div class="parallax-divider-overlay"></div>
+            <div class="parallax-divider-content">
+                <span class="divider-kanji">味</span>
+                <p class="divider-text">La Tradición del Wok</p>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Nuestra Carta</span>
+                    <h2 class="section-title">Explora el <span class="text-gradient">Menú</span></h2>
+                    <p class="section-desc">Más de 70 platos para todos los gustos. Consulta precios y disponibilidad
+                        por WhatsApp</p>
+                </div>
+                <div class="menu-tabs-wrapper">
+                    <div class="menu-tabs" role="tablist" aria-label="Categorías del menú">
+                        <button class="menu-tab active" data-category="menus" role="tab" aria-selected="true">
+                            <span class="tab-icon" aria-hidden="true">🍱</span>
+                            <span>Menús</span>
+                        </button>
+                        <button class="menu-tab" data-category="caldos_sopas" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🍲</span>
+                            <span>Caldos y Sopas</span>
+                        </button>
+                        <button class="menu-tab" data-category="chaufas" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🍚</span>
+                            <span>Chaufas</span>
+                        </button>
+                        <button class="menu-tab" data-category="combinados" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🥡</span>
+                            <span>Combinados</span>
+                        </button>
+                        <button class="menu-tab" data-category="aeropuertos" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">✈️</span>
+                            <span>Aeropuertos</span>
+                        </button>
+                        <button class="menu-tab" data-category="tallarines" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🍝</span>
+                            <span>Tallarines</span>
+                        </button>
+                        <button class="menu-tab" data-category="tortillas" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🥚</span>
+                            <span>Tortillas</span>
+                        </button>
+                        <button class="menu-tab" data-category="pollos" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🍗</span>
+                            <span>Pollos</span>
+                        </button>
+                        <button class="menu-tab" data-category="chancho_pollo" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🐷</span>
+                            <span>Chancho y Pollo</span>
+                        </button>
+                        <button class="menu-tab" data-category="alitas" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🔥</span>
+                            <span>Alitas</span>
+                        </button>
+                        <button class="menu-tab" data-category="porciones" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🥟</span>
+                            <span>Porciones</span>
+                        </button>
+                        <button class="menu-tab" data-category="bebidas" role="tab" aria-selected="false">
+                            <span class="tab-icon" aria-hidden="true">🥤</span>
+                            <span>Bebidas</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="menu-category-display">
+                    <div class="menu-category-image" id="menu-category-image">
+                        <img src="images/Menus.webp" alt="Categoría del menú" loading="lazy" width="400" height="300"
+                            id="category-img">
+                    </div>
+                    <div class="menu-grid" id="menu-grid" role="tabpanel" aria-live="polite">
+                        <!-- Menu items populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parallax Quote -->
+        <section class="parallax-quote">
+            <div class="parallax-bg" style="background-image: url('images/Chaufa.webp');"></div>
+            <div class="parallax-overlay"></div>
+            <div class="parallax-content">
+                <span class="quote-symbol" aria-hidden="true">「</span>
+                <blockquote>
+                    El mejor chifa de Ayacucho, con el sabor que solo D'Salón Chino te puede dar
+                </blockquote>
+                <span class="quote-symbol" aria-hidden="true">」</span>
+                <cite>— Chifa D'Salón Chino</cite>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Nuestros Platos</span>
+                    <h2 class="section-title">Nuestra <span class="text-gradient">Galería</span></h2>
+                    <p class="section-desc">Un vistazo a los sabores que te esperan</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-large">
+                        <img src="images/Chaufa.webp" alt="Chaufa" loading="lazy" width="600" height="400">
+                        <div class="gallery-overlay">
+                            <span>Chaufa Especial</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/TallarinDePollo.webp" alt="Tallarín de Pollo" loading="lazy" width="400"
+                            height="300">
+                        <div class="gallery-overlay">
+                            <span>Tallarín de Pollo</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/AlitasBBQ.webp" alt="Alitas BBQ" loading="lazy" width="400" height="300">
+                        <div class="gallery-overlay">
+                            <span>Alitas BBQ</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Tipakay.webp" alt="Tipakay" loading="lazy" width="400" height="300">
+                        <div class="gallery-overlay">
+                            <span>Tipakay</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/KamLuWantan.webp" alt="Kam Lu Wantan" loading="lazy" width="400" height="300">
+                        <div class="gallery-overlay">
+                            <span>Kam Lu Wantan</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/ChanchoAsadoConPiña.webp" alt="Chancho Asado con Piña" loading="lazy"
+                            width="400" height="300">
+                        <div class="gallery-overlay">
+                            <span>Chancho Asado con Piña</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Aeropuerto.webp" alt="Aeropuerto" loading="lazy" width="400" height="300">
+                        <div class="gallery-overlay">
+                            <span>Aeropuerto</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/SopaDeKion.webp" alt="Sopa de Kion" loading="lazy" width="400" height="300">
+                        <div class="gallery-overlay">
+                            <span>Sopa de Kion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parallax Divider: Sabores -->
+        <section class="parallax-divider" aria-hidden="true">
+            <div class="parallax-divider-bg" style="background-image: url('images/AlitasBBQ.webp');"></div>
+            <div class="parallax-divider-overlay"></div>
+            <div class="parallax-divider-content">
+                <span class="divider-kanji">香</span>
+                <p class="divider-text">Sabores que Enamoran</p>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Opiniones</span>
+                    <h2 class="section-title">Lo que dicen <span class="text-gradient">nuestros clientes</span></h2>
+                </div>
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <div class="testimonial-track">
+                        <div class="testimonial-card">
+                            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+                            <p>"Las alitas BBQ son adictivas, siempre vuelvo por más. El mejor chifa de Ayacucho sin
+                                duda."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">JM</div>
+                                <div>
+                                    <strong>Juan M.</strong>
+                                    <span>Cliente frecuente</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+                            <p>"El tallarín de pollo es espectacular y el combinado tiene la porción perfecta. Muy buena
+                                atención."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">MC</div>
+                                <div>
+                                    <strong>María C.</strong>
+                                    <span>Cliente desde 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+                            <p>"La sopa de kion es lo mejor para el frío de Ayacucho. Lugar acogedor y precios
+                                accesibles."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">RL</div>
+                                <div>
+                                    <strong>Roberto L.</strong>
+                                    <span>Comensal local</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn" id="prev-btn" aria-label="Testimonio anterior">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <path d="M19 12H5M12 19l-7-7 7-7" />
+                            </svg>
+                        </button>
+                        <div class="slider-dots" id="slider-dots"></div>
+                        <button class="slider-btn" id="next-btn" aria-label="Siguiente testimonio">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="section-tag">Encuéntranos</span>
+                        <h2 class="section-title">Visítanos <span class="text-gradient">Hoy</span></h2>
+                        <div class="info-cards">
+                            <a href="https://maps.app.goo.gl/74dLz72tAxkdC8GR9" target="_blank"
+                                rel="noopener noreferrer" class="info-card info-card-link">
+                                <div class="info-icon" aria-hidden="true">📍</div>
+                                <div>
+                                    <h4>Dirección</h4>
+                                    <p>Av. Independencia 435<br>2do piso de la Pollería D'Rockys</p>
+                                </div>
+                                <svg class="info-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M7 17L17 7M17 7H7M17 7v10" />
+                                </svg>
+                            </a>
+                            <div class="info-card">
+                                <div class="info-icon" aria-hidden="true">🕐</div>
+                                <div>
+                                    <h4>Horario</h4>
+                                    <p>Lun – Dom: 5:00 PM – 11:30 PM<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon" aria-hidden="true">🗺️</div>
+                                <div>
+                                    <h4>Cómo Llegar</h4>
+                                    <p>Ayacucho – Huamanga – Enace<br>1 cuadra arriba de Av. Independencia (ref.
+                                        Agricultura)</p>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/51935894115" target="_blank" rel="noopener noreferrer"
+                                class="info-card info-card-link whatsapp-card">
+                                <div class="info-icon" aria-hidden="true">💬</div>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <p>más Consultas, preguntas y más información</p>
+                                </div>
+                                <svg class="info-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M7 17L17 7M17 7H7M17 7v10" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100075864506531" target="_blank"
+                                rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/salonchino/" target="_blank" rel="noopener noreferrer"
+                                class="social-link" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                                    <circle cx="12" cy="12" r="5" />
+                                    <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+                                </svg>
+                            </a>
+                            <a href="https://www.tiktok.com/@d.salon.chino.chi?_r=1&_t=ZS-955SO1tRRHJ" target="_blank"
+                                rel="noopener noreferrer" class="social-link" aria-label="TikTok">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path
+                                        d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1 0-5.78 2.92 2.92 0 0 1 .88.13v-3.5a6.37 6.37 0 0 0-.88-.07 6.26 6.26 0 0 0 0 12.52 6.27 6.27 0 0 0 6.27-6.27V8.77a8.16 8.16 0 0 0 3.83.95V6.69z" />
+                                </svg>
+                            </a>
+                            <a href="https://wa.me/51935894115" target="_blank" rel="noopener noreferrer"
+                                class="social-link" aria-label="WhatsApp">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="map-wrapper">
+                        <div class="map-card">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d485.65971103979626!2d-74.225644184024!3d-13.144876069472325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d31edd495ab%3A0x876aa8de8cf63409!2sCHIFA%20D&#39;SALON%20CHINO!5e0!3m2!1sen!2spe!4v1774794773707!5m2!1sen!2spe"
+                                width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                title="Ubicación de Chifa D'Salón Chino en Google Maps">
+                            </iframe>
+                            <a href="https://maps.app.goo.gl/74dLz72tAxkdC8GR9" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-outline btn-full" style="margin-top: 16px;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <span>Abrir en Google Maps</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main><!-- /main-content -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/Logo.webp" alt="" class="footer-logo-img" width="40" height="40"
+                            aria-hidden="true">
+                        <span class="logo-text">D'Salón Chino</span>
+                    </div>
+                    <p>Auténtica comida chifa en Ayacucho. Más de 70 platos preparados al wok con el mejor sabor.</p>
+                    <p class="footer-notice">📋 Solo consumo en local. más Consultas por WhatsApp.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#specialties">Especialidades</a></li>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lun – Sáb: 5:00 PM – 11:30 PM</li>
+                        <li>Domingos: Descansamos</li>
+                    </ul>
+                    <h4 style="margin-top: 24px;">Redes</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100075864506531" target="_blank"
+                                rel="noopener noreferrer">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/salonchino/" target="_blank"
+                                rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@d.salon.chino.chi?_r=1&_t=ZS-955SO1tRRHJ" target="_blank"
+                                rel="noopener noreferrer">TikTok</a></li>
+                        <li><a href="https://wa.me/51935894115" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ubicación</h4>
+                    <ul>
+                        <li>Av. Independencia 435</li>
+                        <li>2do piso, Pollería D'Rockys</li>
+                        <li>Ayacucho – Huamanga – Enace</li>
+                        <li><a href="https://maps.app.goo.gl/74dLz72tAxkdC8GR9" target="_blank"
+                                rel="noopener noreferrer">📍 Ver en Google Maps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chifa D'Salón Chino. Todos los derechos reservados.</p>
+                <p class="made-with">Hecho con 🔥 y mucho ❤️ en Ayacucho</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/51935894115" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
+        aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
